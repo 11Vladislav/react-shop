@@ -4,6 +4,7 @@
   height: 423px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .title {
