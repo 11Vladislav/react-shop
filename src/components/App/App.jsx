@@ -3,10 +3,12 @@ import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import AppRoutes from '../Routes/Routes';
 import Footer from '../Footer/Footer';
+import UserForm from '../User/UserForm';
 
 import { useDispatch } from 'react-redux';
 import { getCategories } from '../../features/categories/categoriesSlice';
 import { getProducts } from '../../features/products/productsSlice';
+
 
  const App = () => {
   const dispatch = useDispatch();
@@ -18,7 +20,8 @@ import { getProducts } from '../../features/products/productsSlice';
 
   return (
     <div className='app'>
-        <Header />
+      <Header />
+      <UserForm />
         <div className="container">
             <Sidebar />
             <AppRoutes />
