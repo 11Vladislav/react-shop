@@ -23,7 +23,7 @@
 .subtitle {
   line-height: 20px;
   text-transform: uppercase;
-  color: var(--sea);
+  color: #000;
 }
 
 .head {
